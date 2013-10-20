@@ -35,13 +35,13 @@ require_once(dirname(__FILE__).'/tpl_functions.php');
 
   <?php tpl_metaheaders()?>
 
-  <link rel="shortcut icon" href="<?php echo DOKU_TPL?>images/favicon.ico" />
+  <?php echo tpl_favicon() ?>
 
-  <?php /*old includehook*/ @include(dirname(__FILE__).'/meta.html')?>
+  <?php tpl_includeFile('meta.html') ?>
 
 </head>
 <body>
-<?php /*old includehook*/ @include(dirname(__FILE__).'/topheader.html')?>
+<?php tpl_includeFile('topheader.html') ?>
 <div id="wrapper" class='<?php echo $ACT ?>'>
   <div class="dokuwiki">
 
@@ -63,7 +63,7 @@ require_once(dirname(__FILE__).'/tpl_functions.php');
       </div>
       <?php } ?>
 
-      <?php /*old includehook*/ @include(dirname(__FILE__).'/header.html')?>
+      <?php tpl_includeFile('header.html') ?>
       </div>
 
       <?php if(!$toolb) { ?>
@@ -127,7 +127,7 @@ require_once(dirname(__FILE__).'/tpl_functions.php');
     <?php } ?>
     <?php } ?>
 
-    <?php /*old includehook*/ @include(dirname(__FILE__).'/pageheader.html')?>
+    <?php tpl_includeFile('pageheader.html') ?>
 
     <?php flush()?>
 
@@ -227,12 +227,12 @@ require_once(dirname(__FILE__).'/tpl_functions.php');
           switch(tpl_getConf('wiki_actionlinks')) {
             case('buttons'):
                 tpl_button('media');
-                tpl_button('subscription');
+                tpl_button('subscribe');
                 tpl_button('top');
               break;
             case('links'):
                 tpl_actionlink('media');
-                tpl_actionlink('subscription');
+                tpl_actionlink('subscribe');
                 tpl_actionlink('top');
               break;
           }
@@ -244,7 +244,7 @@ require_once(dirname(__FILE__).'/tpl_functions.php');
     <?php } ?>
     <?php } ?>
 
-    <?php /*old includehook*/ @include(dirname(__FILE__).'/footer.html')?>
+    <?php tpl_includeFile('footer.html') ?>
 
   </div>
 </div>

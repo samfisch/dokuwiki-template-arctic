@@ -204,7 +204,7 @@ function arctic_tpl_sidebar_dispatch($sb,$pos) {
                                  'recent', 
                                  'backlink', 
                                  'media', 
-                                 'subscription', 
+                                 'subscribe',
                                  'index', 
                                  'login', 
                                  'profile',
@@ -374,4 +374,3 @@ function arctic_tpl_sidebar_hide() {
 }
 
 // vim:ts=4:sw=4:et:enc=utf-8:
-?>
