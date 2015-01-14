@@ -17,6 +17,7 @@ if (!defined('DOKU_INC')) die();
 <html lang="<?php echo $conf['lang']?>" id="detail" dir="<?php echo $lang['direction']?>">
 <head<?php if (tpl_getConf('opengraphheading')) { ?> prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# fb: http://ogp.me/ns/fb# place: http://ogp.me/ns/place# book: http://ogp.me/ns/book#"<?php } ?>>
   <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>
      <?php echo hsc(tpl_img_getTag('IPTC.Headline',$IMG))?>
     [<?php echo strip_tags($conf['title'])?>]
