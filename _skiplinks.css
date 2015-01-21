@@ -1,0 +1,25 @@
+/**
+ * skip link design.
+ *
+ * @author Mark C. Prins <mprins@users.sf.net>
+ */
+ 
+#dokuwiki__content:focus {
+  /* normally this is _not done_ but we don't want a focusoutline to display on a tabindex -1 main element*/
+  outline: none;
+}
+
+.skiplink {
+  background-color: __pagename_color__;
+  border: 2px solid __header_background__;
+  display: block;
+  left: -1000em;
+  padding: 0.3em;
+  position: absolute;
+}
+
+.skiplink:focus, .skiplink:active {
+  top: 1em;
+  left: 1em;
+  color: __header_background__;
+}
