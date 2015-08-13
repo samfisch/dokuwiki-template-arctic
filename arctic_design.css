@@ -86,7 +86,9 @@ div.dokuwiki div.right_sidebar div.breadcrumbs {
 
 
 div.dokuwiki div.left_sidebar div.secedit input.button,
-div.dokuwiki div.right_sidebar div.secedit input.button {
+div.dokuwiki div.left_sidebar div.secedit button,
+div.dokuwiki div.right_sidebar div.secedit input.button,
+div.dokuwiki div.right_sidebar div.secedit button {
     float: none;
     margin: 0.1em;
 }
@@ -187,10 +189,10 @@ div.dokuwiki div.breadcrumbs {
 }
 
 /* general headline setup */
-div.dokuwiki h1, 
-div.dokuwiki h2, 
-div.dokuwiki h3, 
-div.dokuwiki h4, 
+div.dokuwiki h1,
+div.dokuwiki h2,
+div.dokuwiki h3,
+div.dokuwiki h4,
 div.dokuwiki h5 {
   color: __headline_color__;
   border-color: __border__;
@@ -248,17 +250,20 @@ div.dokuwiki div.right_sidebar form#dw__search input.edit {
 }
 
 /* Buttons */
-div.dokuwiki input.button, div.dokuwiki button.button{
+div.dokuwiki input.button, div.dokuwiki button.button,
+div.dokuwiki button{
   border-color: __form_border__;
   font-size: 100%;
 }
 
-div.dokuwiki div.secedit input.button {
+div.dokuwiki div.secedit input.button,
+div.dokuwiki div.secedit button {
   border-color: __form_border__;
   font-size: 100%;
 }
 
-div.dokuwiki .bar input.button {
+div.dokuwiki .bar input.button,
+div.dokuwiki .bar button {
   height: 24px;
 }
 
