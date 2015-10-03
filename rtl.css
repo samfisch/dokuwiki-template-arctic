@@ -67,7 +67,8 @@ div.dokuwiki a.mediafile {
   padding-right: 18px;
 }
 
-div.dokuwiki div.secedit input.button {
+div.dokuwiki div.secedit input.button,
+div.dokuwiki div.secedit button {
   float: left;
 }
 

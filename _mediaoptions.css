@@ -13,6 +13,7 @@
     cursor: pointer;
 }
 
-#media__popup_content input.button {
+#media__popup_content input.button,
+#media__popup_content button {
     margin-left: 9em;
 }
