@@ -1,7 +1,7 @@
 <?php
 /**
- *  * japanese language file for the configuration manager
- *   */
+ * japanese language file for the configuration manager
+ */
  
 $lang['sidebar']                        = "サイドバーの設定";
 $lang['pagename']                       = "サイドバー用ページ名";

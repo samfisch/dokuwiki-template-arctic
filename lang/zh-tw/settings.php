@@ -1,7 +1,7 @@
 <?php
 /**
- *  * Traditional Chinese language file for the configuration manager
- *   */
+ * Traditional Chinese language file for the configuration manager
+ */
  
 $lang['sidebar']                        = "側欄設置";
 $lang['pagename']                       = "用於側欄的頁名";
