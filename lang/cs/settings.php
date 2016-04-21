@@ -1,6 +1,6 @@
 <?php
 /**
- * czech language file for the configuration manager 
+ * czech language file for the configuration manager
  * český překladový soubor pro konfigurační dialog
  * 
  * @author:     Richard Bayer <RBayer@centrum.cz>

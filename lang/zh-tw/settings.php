@@ -17,6 +17,6 @@ $lang['right_sidebar_order']            = "右側欄排序 (逗號分隔)";
 $lang['right_sidebar_content']          = "右側欄內容";
 $lang['right_sidebar_content_other']    = "其他側欄 (逗號分隔)";
 $lang['search']                         = "搜尋欄位的位置 (使用二個側欄才會套用)";
-$lang['closedwiki']                     = "封閉維基 (導航按鈕在未登入時只顯示登入連結)"; 
+$lang['closedwiki']                     = "封閉維基 (導航按鈕在未登入時只顯示登入連結)";
 $lang['hideactions']                    = "對未登入使用者隱藏所有維基動作";
 // vim:ts=4:sw=4:et:enc=utf-8:
