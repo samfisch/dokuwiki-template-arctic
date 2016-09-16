@@ -1,6 +1,6 @@
 <?php
 /**
- * english language file for the configuration manager
+ * italian language file for the configuration manager
  * 
  * @author:     Samuele Tognini <samuele@cli.di.unipi.it>
  */
