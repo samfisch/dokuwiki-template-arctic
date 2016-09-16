@@ -2,12 +2,12 @@
 
 Zodra u deze pagina heeft aangemaakt kunt u een ongeordende lijst van links invoegen ter navigatie, zoals:
 
-<file>  
+<file>
 * [[link 1]]
 * [[link 2]]
 * [[link 3]]
 </file>
 
-U kunt ook gebruik maken van een van de vele beschikbare index [[doku>plugins]]. 
+U kunt ook gebruik maken van een van de vele beschikbare index [[doku>plugins]].
 
 Voor meer informatie over zijbalken kunt u kijken in de [[doku>template:arctic#first steps|documentatie]] van dit sjabloon.

@@ -1,7 +1,7 @@
 <?php
 /**
- *  * japanese language file for the configuration manager
- *   */
+ * japanese language file for the configuration manager
+ */
  
 $lang['sidebar']                        = "サイドバーの設定";
 $lang['pagename']                       = "サイドバー用ページ名";
@@ -17,6 +17,6 @@ $lang['right_sidebar_order']            = "右サイドバーの順序（カン�
 $lang['right_sidebar_content']          = "右サイドバーの内容";
 $lang['right_sidebar_content_other']    = "その他の内容（カンマ区切り）";
 $lang['search']                         = "検索ボックスの位置（両サイドバー使用時のみ適用）";
-$lang['closedwiki']                     = "非公開ウィキ（ログアウト時、ログインリンクのみ表示）"; 
+$lang['closedwiki']                     = "非公開ウィキ（ログアウト時、ログインリンクのみ表示）";
 $lang['hideactions']                    = "ログアウト時、ウィキ操作は全て隠す";
 // vim:ts=4:sw=4:et:enc=utf-8:

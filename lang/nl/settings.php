@@ -20,7 +20,7 @@ $lang['right_sidebar_order']            = "Volgorde van de rechter zijbalk (komm
 $lang['right_sidebar_content']          = "Inhoud van de rechter zijbalk";
 $lang['right_sidebar_content_other']    = "Overige zijbalken (komma gescheiden)";
 $lang['search']                         = "Positie van het zoekveld (alleen van toepassingen als er twee zijbalken gebruikt worden)";
-$lang['closedwiki']                     = "Afgeschermde Wiki (De navigatie toont enkel de aanmeld link bij niet aangemelde gebruikers)"; 
+$lang['closedwiki']                     = "Afgeschermde Wiki (De navigatie toont enkel de aanmeld link bij niet aangemelde gebruikers)";
 $lang['hideactions']                    = "Verberg alle wiki acties voor niet aangemelde gebruikers";
 $lang['opengraphheading']               = "Voeg OpenGraph namespace prefixes toe aan de head sectie";
 

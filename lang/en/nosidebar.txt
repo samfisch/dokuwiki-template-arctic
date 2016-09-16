@@ -2,12 +2,12 @@
 
 Once you've created the page, just add an unordered list of links to create the navigation i.e.:
 
-<file>  
+<file>
 * [[link 1]]
 * [[link 2]]
 * [[link 3]]
 </file>
 
-You can also use one of the many available index [[doku>plugins]]. 
+You can also use one of the many available index [[doku>plugins]].
 
-For further information about sidebars refer to the template [[doku>template:arctic#first steps|documenation]].
+For further information about sidebars refer to the template [[doku>template:arctic#first steps|documentation]].
