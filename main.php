@@ -106,7 +106,7 @@ require_once(dirname(__FILE__).'/tpl_functions.php');
                   tpl_button('recent');
                   tpl_button('index');
                   tpl_button('login');
-                  if(tpl_getConf('sidebar') == 'none') tpl_searchform();
+                  if(tpl_getConf('sidebar') == 'none') arctic_tpl_searchform();
                 } else {
                   tpl_button('login');
                 }
@@ -119,7 +119,7 @@ require_once(dirname(__FILE__).'/tpl_functions.php');
                   tpl_actionlink('recent');
                   tpl_actionlink('index');
                   tpl_actionlink('login');
-                  if(tpl_getConf('sidebar') == 'none') tpl_searchform();
+                  if(tpl_getConf('sidebar') == 'none') arctic_tpl_searchform();
                 } else {
                   tpl_actionlink('login');
                 }
@@ -139,7 +139,7 @@ require_once(dirname(__FILE__).'/tpl_functions.php');
 
       <?php if(!arctic_tpl_sidebar_hide()) { ?>
         <div class="left_sidebar">
-          <?php tpl_searchform() ?>
+          <?php arctic_tpl_searchform() ?>
           <?php arctic_tpl_sidebar('left') ?>
         </div>
         <main class="right_page" id="dokuwiki__content" tabindex="-1">
@@ -158,7 +158,7 @@ require_once(dirname(__FILE__).'/tpl_functions.php');
           <?php ($notoc) ? tpl_content(false) : tpl_content() ?>
         </main>
         <div class="right_sidebar">
-          <?php tpl_searchform() ?>
+          <?php arctic_tpl_searchform() ?>
           <?php arctic_tpl_sidebar('right') ?>
         </div>
       <?php } else { ?>
@@ -171,14 +171,14 @@ require_once(dirname(__FILE__).'/tpl_functions.php');
 
       <?php if(!arctic_tpl_sidebar_hide()) { ?>
         <div class="left_sidebar">
-          <?php if(tpl_getConf('search') == 'left') tpl_searchform() ?>
+          <?php if(tpl_getConf('search') == 'left') arctic_tpl_searchform() ?>
           <?php arctic_tpl_sidebar('left') ?>
         </div>
         <main class="center_page" id="dokuwiki__content" tabindex="-1">
           <?php ($notoc) ? tpl_content(false) : tpl_content() ?>
         </main>
         <div class="right_sidebar">
-          <?php if(tpl_getConf('search') == 'right') tpl_searchform() ?>
+          <?php if(tpl_getConf('search') == 'right') arctic_tpl_searchform() ?>
           <?php arctic_tpl_sidebar('right') ?>
         </div>
       <?php } else { ?>

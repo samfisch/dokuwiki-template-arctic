@@ -339,6 +339,20 @@ function p_index_xhtml($ns,$pos) {
 }
 
 /**
+ * Renders the Searchform
+ * calls of tpl_searchform located in /inc/html.php
+ * and adds a label
+ *
+ * @author Samuel Fischer <sf@notomorrow.de>
+ */
+function arctic_tpl_searchform(){
+    #print '<label>' . DOKU_LF;
+    tpl_searchform();
+    #print '</label>' . DOKU_LF;
+}
+
+
+/**
  * searches for namespace sidebars
  *
  * @author Michael Klier <chi@chimeric.de>
