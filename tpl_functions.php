@@ -37,7 +37,7 @@ switch($sbpos) {
 
 /**
  * Prints the sidebars
- * 
+ *
  * @author Michael Klier <chi@chimeric.de>
  */
 function arctic_tpl_sidebar($pos) {
@@ -77,7 +77,7 @@ function arctic_tpl_sidebar_dispatch($sb,$pos) {
     global $TOC;
 
     $svID  = $ID;   // save current ID
-    $svREV = $REV;  // save current REV 
+    $svREV = $REV;  // save current REV
     $svTOC = $TOC;  // save current TOC
 
     $pname = tpl_getConf('pagename');
@@ -135,7 +135,7 @@ function arctic_tpl_sidebar_dispatch($sb,$pos) {
                 }
                 // check for namespace sidebars in user namespace too
                 if(preg_match('/'.$user_ns.':'.$user.':.*/', $svID)) {
-                    $ns_sb = _getNsSb($svID); 
+                    $ns_sb = _getNsSb($svID);
                     if($ns_sb && $ns_sb != $user_sb && auth_quickaclcheck($ns_sb) >= AUTH_READ) {
                         print '<aside class="namespace_sidebar sidebar_box">' . DOKU_LF;
                         print p_sidebar_xhtml($ns_sb,$pos) . DOKU_LF;
@@ -182,7 +182,7 @@ function arctic_tpl_sidebar_dispatch($sb,$pos) {
                 }
             }
             break;
-        
+
         case 'toolbox':
 
             if(tpl_getConf('hideactions') && !isset($_SERVER['REMOTE_USER'])) return;
@@ -198,16 +198,16 @@ function arctic_tpl_sidebar_dispatch($sb,$pos) {
                 print '  </div>' . DOKU_LF;
                 print '</div>' . DOKU_LF;
             } else {
-                $actions = array('admin', 
-                                 'revert', 
-                                 'edit', 
-                                 'history', 
-                                 'recent', 
-                                 'backlink', 
-                                 'media', 
+                $actions = array('admin',
+                                 'revert',
+                                 'edit',
+                                 'history',
+                                 'recent',
+                                 'backlink',
+                                 'media',
                                  'subscribe',
-                                 'index', 
-                                 'login', 
+                                 'index',
+                                 'login',
                                  'profile',
                                  'top');
 
@@ -281,11 +281,11 @@ function arctic_tpl_sidebar_dispatch($sb,$pos) {
 }
 
 /**
- * Removes the TOC of the sidebar pages and 
+ * Removes the TOC of the sidebar pages and
  * shows a edit button if the user has enough rights
  *
  * TODO sidebar caching
- * 
+ *
  * @author Michael Klier <chi@chimeric.de>
  */
 function p_sidebar_xhtml($sb,$pos,$subst=array()) {
@@ -354,7 +354,7 @@ function _getNsSb($id) {
         if(@page_exists($ns_sb)) return $ns_sb;
         array_pop($path);
     }
-    
+
     // nothing found
     return false;
 }
